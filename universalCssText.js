@@ -1,4 +1,3 @@
-
 /**!
  * @license universalCssText.js v0.1
  * (c) 2014 Giuseppe Scotto Lavina <mailto:g.scotto@email.it>
@@ -21,8 +20,11 @@
 
     })(sheets.length),
 
-    style = sheet.cssRules[sheet.insertRule("*{}", sheet.cssRules.length)].style
+    style = null
 
+
+  sheet.insertRule("*{}", 0)
+  style = sheet.cssRules[0].style
 
   def(this, name, {
 
