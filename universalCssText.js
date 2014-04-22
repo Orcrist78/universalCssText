@@ -1,5 +1,5 @@
 /**!
- * @license universalCssText.js v0.1
+ * @license universalCssText.js v0.2
  * (c) 2014 Giuseppe Scotto Lavina <mailto:g.scotto@email.it>
  * Available under MIT license 
  */
