@@ -1,5 +1,5 @@
 /**!
- * @license universalCssText.js v0.2
+ * @license universalCssText.js v0.3
  * (c) 2014 Giuseppe Scotto Lavina <mailto:g.scotto@email.it>
  * Available under MIT license 
  */
@@ -20,11 +20,8 @@
 
     })(sheets.length),
 
-    style = null
+    style = sheet.cssRules[sheet.insertRule("*,*:before,*:after{}", 0)].style
 
-
-  sheet.insertRule("*{}", 0)
-  style = sheet.cssRules[0].style
 
   def(this, name, {
 
